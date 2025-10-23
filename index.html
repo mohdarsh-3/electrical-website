@@ -109,14 +109,17 @@
     <div class="copyright">© 2025 MS Solutions | All rights reserved</div>
   </footer>
 
+  <!-- Scripts -->
   <script src="assets/js/script.js"></script>
-
   <script>
-  const toggle = document.querySelector('.menu-toggle');
-  const nav = document.querySelector('.main-nav');
-  toggle.addEventListener('click', () => nav.classList.toggle('show'));
-</script>
+    // Hamburger Menu Toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
 
+    menuToggle.addEventListener('click', () => {
+      mainNav.classList.toggle('open');
+    });
+  </script>
 
 </body>
 </html>

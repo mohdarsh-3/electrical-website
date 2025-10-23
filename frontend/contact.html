@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — MS Solutions</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header"><div class="container header-inner"><div class="brand"><img src="assets/images/logo.png" class="logo"><div><h1>MS Solutions</h1></div></div><nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="contact.html" class="btn-primary">Contact</a></nav><div class="mobile-actions"><a href="tel:+911234567890" class="btn-ghost">Call</a><button id="menuToggle">☰</button></div></div></header>
+
+  <main class="container contact-page">
+    <h2>Contact Us</h2>
+    <p class="subtle">Get in touch for a free quote or site visit.</p>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <h3>Contact Details</h3>
+        <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+        <p>Email: <a href="mailto:contact@arselectricals.in">contact@arselectricals.in</a></p>
+        <p>Address: Amroha, Uttar Pradesh, India</p>
+        <p><a href="https://wa.me/911234567890" target="_blank">Chat on WhatsApp</a></p>
+      </div>
+
+      <div class="form-card">
+        <h3 id="quote">Request a Quote</h3>
+        <form id="contactForm">
+          <label for="name">Full name</label>
+          <input id="name" name="name" required>
+
+          <label for="company">Company (optional)</label>
+          <input id="company" name="company">
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="phone">Phone / WhatsApp</label>
+          <input id="phone" name="phone" required>
+
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Send Request</button>
+            <a href="tel:+911234567890" class="btn-ghost">Call Now</a>
+          </div>
+
+          <div id="formStatus" aria-live="polite" style="margin-top:10px"></div>
+        </form>
+      </div>
+    </div>
+
+    <div class="map" style="margin-top:20px">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><div><h4>MS Solutions</h4></div></div><div class="copyright">© 2025 MS Solutions</div></footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
